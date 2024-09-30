@@ -1,0 +1,110 @@
+:root {
+  --primary-color: #6c63ff;
+  --secondary-color: #f5f2fe;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+body {
+  margin-top: 100px; /* Spacing from the top */
+  margin-bottom: 100px; /* Spacing from the bottom */
+  text-align: center;
+}
+
+h1, h2, h3 {
+  margin: 0;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  margin-top: 20px;
+  font-size: 36px;
+  color: blacks;
+}
+
+h3 {
+  font-size: 24px;
+  opacity: 0.7;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.container {
+  margin-top: 20px; /* Additional space for better layout */
+}
+
+.navigation-links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.navigation-links a {
+  margin: 20px;
+}
+
+.primary-link, .secondary-link {
+  display: inline-block;
+  border-radius: 4px;
+  padding: 15px 30px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.primary-link {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.secondary-link {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+
+.primary-link:hover, .secondary-link:hover {
+  opacity: 0.8;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: var(--box-shadow);
+}
+
+/* General Footer Styles */
+footer {
+  padding: 10px;
+  background-color:  var(--secondary-color);
+  color: black; /* Change to a visible color */
+  text-align: center;
+  width: 100%;
+  box-shadow: var(--box-shadow);
+  margin-bottom: -95px;
+}
+
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  h1 {
+      font-size: 36px;
+  }
+  h2 {
+      font-size: 28px;
+  }
+  h3 {
+      font-size: 20px;
+  }
+  .navigation-links {
+      flex-direction: column;
+  }
+  .navigation-links a {
+      margin: 10px 0;
+  }
+}
