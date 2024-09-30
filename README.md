@@ -6,9 +6,8 @@ Welcome to my portfolio! I am Esethu Pakosi, a Front-end developer based in Sout
 
 - [About Me](#about-me)
 - [Technologies Used](#technologies-used)
-- [Projects](#projects)
 - [Contact Me](#contact-me)
-
+  
 ## About Me
 
 I am a passionate Front-end developer with experience in creating responsive and user-friendly web applications. My background in public service as a police officer has equipped me with unique problem-solving skills, which I apply to my work in web development. I love crafting beautiful and functional websites that provide an excellent user experience.
@@ -22,7 +21,6 @@ This portfolio was built using the following technologies:
 - **Bootstrap**: For responsive design and layout
 - **JavaScript**: For interactivity (if applicable)
   
-## Projects
 
 ### Yoga App
 Embark on a transformative journey with our yoga app, offering personalized routines and expert guidance for balance in body and mind. 
